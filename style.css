@@ -1,0 +1,40 @@
+table {
+	height: 95vh;
+}
+
+th, td {
+	min-width: 15vh;
+	max-width: 15vh;
+	word-wrap: break-word;
+}
+
+#toggle {
+	height: 5vh;
+	line-height: 5vh;
+}
+
+#add_user_panel {
+	display: none;
+	height: 30vh;
+	vertical-align: ;
+}
+
+#toggle, #add_user_panel {
+	border-bottom: 1px solid lightblue;
+	background-color: darkslategray;
+	color: white;
+	text-align: center;
+}
+
+#toggle:hover {
+	cursor: pointer;
+}
+
+#name, #surname {
+	max-width: 35vw;
+}
+
+.status-img {
+	width: 5vh;
+	height: 5vh;
+}
